@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Link, Route, Switch} from 'react-router-dom';
-import UserListComponent from "../user/UserListComponent";
-import AddUserComponent from "../user/AddUserComponent";
-import EditUserComponent from "../user/EditUserComponent";
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
+import UserListComponent from "../UserListComponent";
+import AddUserComponent from "../AddUserComponent";
+import EditUserComponent from "../EditUserComponent";
 
 const AppRouter = () => {
    return(
@@ -22,8 +22,7 @@ const AppRouter = () => {
 }
 
 const style = {
-  color: 'red',
-  margin: '10px'
+  marginTop: '20px'
 }
 
 export default AppRouter;
