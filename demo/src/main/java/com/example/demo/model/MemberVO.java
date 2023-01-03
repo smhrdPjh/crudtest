@@ -6,9 +6,11 @@ import lombok.Data;
 public class MemberVO {
     
 
-	private int no;
-    private String id;
-	private String pw;
-	private String nick;
-
+	int id;
+    String username;
+    String password;
+    String firstName;
+    String lastName;
+    int age;
+    int salary;
 }

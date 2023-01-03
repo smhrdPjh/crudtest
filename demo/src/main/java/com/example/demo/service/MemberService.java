@@ -13,11 +13,17 @@ public class MemberService {
   
    @Autowired
    private MemberMapper memberMapper;
-    public MemberVO checkMembers(){
+    public MemberVO users(){
         
 
 
-        return memberMapper.checkMembers();
+        return memberMapper.users();
+    }
+
+    public void insertUser(MemberVO user){
+
+         memberMapper.insertUser(user);
+
     }
   
    
